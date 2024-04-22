@@ -1,0 +1,12 @@
+Implementati o aplicatie Windows Forms pentru gentionarea unei retete culinare.
+  -Definiti clasa Ingredient pentru a reprezenta materialele necesare unei retete culinare.
+  Clasa va contine proprietatile: Nume, Grame, Uncii, EsteIngredientUscat. 
+  Proprietatea Uncii este calculata, valoarea fiind egala cu Grame * 0.0352;
+-Definiti un grid in care sa afisati o serie de ingrediente;
+-Definiti un form auxiliar in care se va putea realiza adaugarea unui ingredient nou;
+-Definiti un buton, la apasarea caruia se va afisa intr-un message box, iconita de 
+Information, suma totala in grame a tuturor ingredientelor care contin cuvantul "faina",
+  case insensitive. Daca in lista de ingrediente nu exista niciun element care contine
+in nume textul "faina", iconita va fi de Error si se va afisa un mesaj corespunzator.
+  -Definiti un buton, la apasarea caruia se vor serializa intr-un fisier binar doar 
+ingredientele uscate.
